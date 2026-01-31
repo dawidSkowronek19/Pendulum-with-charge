@@ -1,0 +1,32 @@
+{
+    "simulation": {
+        "nX": 100,
+        "nY": 100,
+        "nZ": 50,
+        "Delta": 0.005,
+        "timeStep": 0.001,
+        "epsilon": 3,
+        "mi": 3,
+        "q": 0.001,
+        "MadderCoef": 0.3
+    },
+    "pathSimulation": {
+        "E_OUTPUT": "../graphsE/output49/",
+        "B_OUTPUT": "../graphsB/output49/"
+    },
+    "pendulum": {
+        "theta0": -2.9676302439442455,
+        "omega0": -0.4870487723437684,
+        "L": 0.0342319842605925,
+        "mass": 0.1,
+        "g": 9.8,
+        "tMax": 5.0
+    },
+    "pathPendulum": {
+        "thetaFile": "./pendulumData/theta.dat",
+        "omegaFile": "./pendulumData/omega.dat"
+    },
+    "simulationParameters": {
+        "NUM_OF_THREADS": 18
+    }
+}
